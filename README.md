@@ -16,18 +16,18 @@
 
 ## Voltage Supervisor TLV803E
 Cuts the power of the MCU and LORA module when the battery is low. R4 and R6 add hysteresis, about 300mV, to increase the voltage margin to cut and reconnect and avoid entering in a reset/start loop:
-- below 3V cut the power
+- below 3V cuts the power
 - Above 3.3V it reconnects again
 
-It prevents that the NRF52 gets blocked when the battery is low, and is not able to reboot when the sun is back and the voltage rises. It is also good for the battery life. 
+It prevents that the NRF52 gets blocked when the battery is low not being able to reboot when the sun is back. It is also good for the battery life. 
 
 ## Mosfet to prevent reverse current
-Q1 is configured as an *ideal diode*, to prevent reverse current from the battery to the panel when there is no sun. This reverse current can be more than 1mA, what is a significant waste of power during the night.
+Q1 is configured as a kind of *ideal diode*, to prevent reverse current from the battery to the panel when there is no sun. This reverse current can be more than 1mA, what is a significant waste of power during the night.
 
-To minimize the voltage drop across Q1, it is driven by the CHRG pin of the CN3791. This pin is low while the device is charging, switching on the mosfet completely. During the night the CHRG pin is high and the mosfet is off, blocking the reverse current. It is more efficient than a schottky diode or even an ideal diode.
+To minimize the voltage drop across Q1, it is driven by the CHRG pin of the CN3791. This pin is low while the device is charging, switching on the mosfet completely. During the night the CHRG pin is high and the mosfet is off, blocking the reverse current. It is more efficient than a schottky diode or even a basic ideal diode.
 
 ## Power consumption
-I have meassured 7.5mA when the device is on but waitting, and about 125mA transmitting.
+I have meassured 7.5mA when the device is on and waitting, and about 125mA transmitting.
 
 
 
